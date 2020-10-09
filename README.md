@@ -2,6 +2,7 @@ Normal SoC
 ============
 
 一般的、标准化的SoC设计策略与设计方向
+以IP为中心的SoC设计，以IP为中心的testcase复用原则
 
 topology - diplomacy
 ---------------------
@@ -56,6 +57,8 @@ gpio map
 --------------
 - pad share
 - pin matrix
+- chip IO
+- test mode
 
 
 dma channel
@@ -75,20 +78,41 @@ doc
 --------------
 - code <-> doc
 
+- Architecture diagram
+- address map info
+- clock tree
+- reset tree
+- memory system
+- dma channel
+- gpio map info
+- interrupt info
+
 
 syn flow
 -----------------
+- sdc
+- Power
+- Area
+- Perfomance
 
 
-fpga version
------------------
-
-
-testbench -> verification
+verification
 --------------------------
+- fm scripts
+- testbench
+- case demo
+- coverage collection
+- case reuse
 
 
 software
+-----------------
+- dts
+- register macro
+- demo case
+
+
+fpga version
 -----------------
 
 
