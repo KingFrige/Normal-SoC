@@ -110,6 +110,7 @@ software
 - dts
 - register macro
 - demo case
+- General firmware layer
 
 
 fpga version
@@ -132,3 +133,4 @@ reference
 
 [block-pio-sifive](https://github.com/sifive/block-pio-sifive)
 
+[freedom-e-sdk](https://github.com/sifive/freedom-e-sdk)
