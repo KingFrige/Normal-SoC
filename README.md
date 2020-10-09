@@ -115,7 +115,8 @@ software
 
 fpga version
 -----------------
-
+- xdc
+- FPGA-IP
 
 reference
 ------------
@@ -134,3 +135,7 @@ reference
 [block-pio-sifive](https://github.com/sifive/block-pio-sifive)
 
 [freedom-e-sdk](https://github.com/sifive/freedom-e-sdk)
+
+[chipyard](https://github.com/ucb-bar/chipyard)
+
+
