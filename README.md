@@ -75,6 +75,19 @@ interrupt connect
 - low power wake up
 
 
+boot flow
+------------
+- boot select
+- boot rom
+- bootloader
+
+
+debug
+----------
+- debug
+- trace
+
+
 doc
 --------------
 - code <-> doc
