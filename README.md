@@ -1,15 +1,20 @@
 Normal SoC
 ============
 
+一般的、标准化的SoC设计策略与设计方向
+
 topology - diplomacy
 ---------------------
 - address map
 - bus node
 - bus protocol -> amba/tilelink
+- performance evaluation
 
 
 config - parameter
 --------------------
+- reuse
+- gradient
 
 
 clock tree
@@ -31,6 +36,7 @@ power domain
 --------------
 - dut group
 - upf
+- power evaluation
 
 
 memory system
@@ -38,6 +44,7 @@ memory system
 - cache node
 - memory size
 - memory topology -> location
+- performance evaluation
 
 
 regmapper
@@ -67,6 +74,10 @@ interrupt connect
 doc
 --------------
 - code <-> doc
+
+
+syn flow
+-----------------
 
 
 fpga version
