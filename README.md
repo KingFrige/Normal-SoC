@@ -119,10 +119,16 @@ fpga version
 reference
 ------------
 [rocket-chip](https://github.com/chipsalliance/rocket-chip)
+
 [fusesoc](https://github.com/olofk/fusesoc)
+
 [SoC-Gulp](https://github.com/KingFrige/SoC-Gulp)
+
 [duh](https://github.com/sifive/duh)
+
 [wake](https://github.com/sifive/wake)
+
 [wit](https://github.com/sifive/wit)
+
 [block-pio-sifive](https://github.com/sifive/block-pio-sifive)
 
