@@ -2,6 +2,7 @@ Normal SoC
 ============
 
 一般的、标准化的SoC设计策略与设计方向
+
 以IP为中心的SoC设计，以IP为中心的testcase复用原则
 
 topology - diplomacy
