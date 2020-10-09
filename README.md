@@ -4,7 +4,7 @@
 
 以IP为中心的SoC设计，以IP为中心的testcase复用原则
 
-## aspect
+## aspects
 
 ### topology - diplomacy
 - address map
