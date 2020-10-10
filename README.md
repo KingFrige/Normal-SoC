@@ -1,12 +1,12 @@
-Normal SoC
-============
+# Normal SoC
 
 一般的、标准化的SoC设计策略与设计方向
 
 以IP为中心的SoC设计，以IP为中心的testcase复用原则
 
-topology - diplomacy
----------------------
+## aspects
+
+### topology - diplomacy
 - address map
 - bus node
 - bus protocol -> amba/tilelink
@@ -14,71 +14,72 @@ topology - diplomacy
 - Integration mode
 
 
-config - parameter
---------------------
+### config - parameter
 - reuse
 - gradient
 - parameter transfer
 
 
-clock tree
---------------
+### clock tree
 - internal generate
 - div
 - source select -> mux
 - sdc
 
 
-reset tree
---------------
+### reset tree
 - source
 - sync clock
 - order 
 
 
-power domain
---------------
+### power domain
 - dut group
 - upf
 - power evaluation
 
 
-memory system
---------------
+### memory system
 - cache node
 - memory size
 - memory topology -> location
 - performance evaluation
 
 
-regmapper
---------------
+### regmapper
 - register config input
 
 
-gpio map
---------------
+### gpio map
 - pad share
 - pin matrix
 - chip IO
 - test mode
 
 
-dma channel
-------------
+### dma channel
 - connect
 - reuse channel
 
 
-interrupt connect
-------------------
+### interrupt connect
 - connect
 - map
 - low power wake up
 
 
-doc
---------------
+### boot flow
+- boot select
+- boot rom
+- bootloader
+
+
+### debug
+- debug
+- trace
+
+
+### doc
 - code <-> doc
 
 - Architecture diagram
@@ -91,16 +92,14 @@ doc
 - interrupt info
 
 
-syn flow
------------------
+### syn flow
 - sdc
 - Power
 - Area
 - Perfomance
 
 
-verification
---------------------------
+### verification
 - fm scripts
 - testbench
 - case demo
@@ -108,21 +107,24 @@ verification
 - case reuse
 
 
-software
------------------
+### software
 - dts
 - register macro
 - demo case
 - General firmware layer
 
 
-fpga version
------------------
+### fpga version
 - xdc
 - FPGA-IP
+- syn & imp
 
-reference
-------------
+## impletation
+- coding, e.g. rocket-chip
+- config parse, e.g. scripts parse xls config file
+
+## reference
+
 [rocket-chip](https://github.com/chipsalliance/rocket-chip)
 
 [fusesoc](https://github.com/olofk/fusesoc)
