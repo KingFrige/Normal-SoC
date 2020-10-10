@@ -1,8 +1,13 @@
 # Generic IP
 
+- CPU
+- DSP
+- NNE
 - cache
 
 - fifo
+
+- DMA
 
 - bus
   * wishbone
@@ -16,12 +21,16 @@
   * rom
   * sdram
   * PCIe
+  * MIPI
 
 - io
+  * gpio
   * i2c
   * lcd
   * uart
   * spi/qspi
+  * sdio
+  * i2s
   * ps2
   * vga
   * ddrio
@@ -29,6 +38,7 @@
   * usb
   * nfc
   * bluetooth
+  * HDMI
 
 - net
   * Ethernet
@@ -36,16 +46,28 @@
   * wifi
   * UDP
 
+- PWR
+
+- security
+  * AES
+  * DEC
+  * SHA
+  * TRNG/RNG
+
+- cnt
+  * timer
+  * iwdg/wwdg
+  * pwm
+  * rtc
+
 - misc
   * sync
   * filter
   * crc
-  * timer
-  * wdg/wwdg
-  * pwm
-  * cpt
+  * comparator
   * adc
   * dac
+  * pll
 
 
 ## reference
