@@ -125,6 +125,11 @@
 - coding, e.g. rocket-chip
 - config parse, e.g. scripts parse xls config file
 
+
+## generic ip
+
+[generic-ip](./generic-ip.md)
+
 ## reference
 
 [rocket-chip](https://github.com/chipsalliance/rocket-chip)
