@@ -11,12 +11,14 @@ topology - diplomacy
 - bus node
 - bus protocol -> amba/tilelink
 - performance evaluation
+- Integration mode
 
 
 config - parameter
 --------------------
 - reuse
 - gradient
+- parameter transfer
 
 
 clock tree
