@@ -4,6 +4,8 @@
 
 以IP为中心的SoC设计，以IP为中心的testcase复用原则
 
+一次设计，生成不同用途的目标， e.g. chisel设计代码生成文档与verilog设计
+
 ## aspects
 
 ### topology - diplomacy
