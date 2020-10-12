@@ -150,4 +150,4 @@
 
 [chipyard](https://github.com/ucb-bar/chipyard)
 
-
+[IP-XACT](https://accellera.org/downloads/standards/ip-xact)
