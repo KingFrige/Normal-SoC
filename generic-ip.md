@@ -39,6 +39,7 @@
   * nfc
   * bluetooth
   * HDMI
+  * CAN
 
 - net
   * Ethernet
@@ -53,6 +54,9 @@
   * DEC
   * SHA
   * TRNG/RNG
+  * ciphers
+  * eFuse
+  * RSA
 
 - cnt
   * timer
